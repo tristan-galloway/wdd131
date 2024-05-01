@@ -1,0 +1,29 @@
+Q: What are HTML meta elements?
+A: HTML meta elements provide metadata about an HTML document, including information such as character encoding, page description, author, viewport settings, and more.
+
+Q: Why are HTML meta elements important?
+A: HTML meta elements are important because they provide essential information about a webpage, such as its purpose, authorship, and how it should be displayed or interpreted by browsers and search engines.
+
+Q: Which HTML meta elements should always be included?
+A: The charset meta element, which specifies the character encoding, and the viewport meta element, which controls the layout on different devices, are essential and should always be included. Other meta elements like description and author are important but not strictly required.
+
+Q: What are CSS selectors?
+A: CSS selectors are patterns used to select and style HTML elements within a web page. They allow developers to target specific elements based on their tag name, class, ID, or relationship with other elements.
+
+Q: Can you give an example of a CSS selector?
+A: Sure! An example of a CSS selector targeting all <p> elements would be p { color: blue; }.
+
+Q: How do I use multiple selectors in one rule?
+A: You can use multiple selectors in one CSS rule by separating them with commas. For example, div, p, .my-class { color: blue; } applies the same style to <div>, <p>, and elements with the class .my-class.
+
+Q: What is a CSS combinator?
+A: A CSS combinator is a symbol or keyword used to specify the relationship between two or more selectors in a CSS rule. Combinators allow you to target elements based on their relationship with other elements in the HTML document structure.
+
+Q: What is a pseudo-class in CSS?
+A: A pseudo-class in CSS is a keyword that is added to a selector to style an element based on its state or relationship with the user. Examples include :hover, :active, :focus, :first-child, and more.
+
+Q: What is JavaScript?
+A: JavaScript is a programming language primarily used to create interactive and dynamic content on websites. It allows for real-time updates, enhanced user experiences, and the manipulation of HTML, CSS, and other web technologies.
+
+Q: How can I use JavaScript on a web page?
+A: JavaScript can be included in a web page using <script> tags, similar to how CSS or other resources are included. Once included, JavaScript code can target HTML elements, respond to user interactions, update content or styling dynamically, and perform various other actions to make the web page more interactive and responsive.

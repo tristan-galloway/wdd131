@@ -1,0 +1,29 @@
+Q: What is the purpose of variables in JavaScript?
+A: Variables in JavaScript serve as placeholders for storing and manipulating data within a program. They help organize code and specify the type of data being stored.
+
+Q: What is the difference between let and const in JavaScript?
+A: let is used to declare variables whose values can be changed or reassigned, while const is used for variables whose values remain constant and immutable throughout the program.
+
+Q: Why do variables need to be declared?
+A: Variables need to be declared in order to allocate memory for storing data, identify the type of data being stored, and manage scope within the program.
+
+Q: What is the purpose of functions in JavaScript?
+A: Functions in JavaScript allow us to encapsulate reusable blocks of code, making programs more organized, efficient, and easier to maintain. They enable code modularity and abstraction.
+
+Q: How can I write functions in JavaScript?
+A: Functions in JavaScript can be written using either function declarations or function expressions. They are defined using the function keyword followed by a name, parameters (if any), and a function body.
+
+Q: What is the Document Object Model (DOM)?
+A: The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of HTML and XML documents as a tree-like structure of nodes, allowing JavaScript to interact with and manipulate the content dynamically.
+
+Q: How can I manipulate an HTML document with JavaScript?
+A: JavaScript can manipulate an HTML document by accessing elements, modifying content and attributes, adding or removing elements, and responding to user events using DOM manipulation techniques.
+
+Q: How can I add elements to the DOM?
+A: Elements can be added to the DOM dynamically using JavaScript by creating new elements with createElement(), modifying their properties, and appending them to existing elements with methods like appendChild().
+
+Q: How can I remove elements from the DOM?
+A: Elements can be removed from the DOM using methods like removeChild() or remove() to remove a child element from its parent node, or by using parentNode.removeChild() to remove an element directly.
+
+Q: How can I add or remove attributes from elements in the DOM?
+A: Attributes can be added to elements using setAttribute() and removed using removeAttribute(). The existence of an attribute can be checked using hasAttribute().
