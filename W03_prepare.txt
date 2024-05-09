@@ -1,0 +1,29 @@
+Q: What is responsive web design?
+
+A: Responsive web design (RWD) is a way of building websites that adjust to fit the screen size of the device they're being viewed on. This ensures a good user experience on desktops, laptops, tablets, and smartphones.
+
+Q: How are CSS media queries used in responsive design?
+
+A: Media queries allow you to target styles based on specific characteristics of the device, like screen size or orientation. This lets you define different styles for different screen sizes, layouts, and elements.
+
+Q: What part does the viewport meta tag play in responsive design?
+
+A: The viewport meta tag sets the initial viewport dimensions and scaling of your webpage. It essentially tells the browser how to handle the initial display and prepares the foundation for media queries to take over and deliver a responsive experience.
+
+CSS Reset/Normalize
+Q: What is a CSS Reset?
+
+A: A CSS Reset is a stylesheet that aims to normalize the default styles and behaviors of HTML elements across different web browsers. It provides a clean slate for consistent web design.
+
+Q: What is CSS Normalize?
+
+A: CSS Normalize is a popular approach that achieves consistent browser rendering in a more targeted way than a full reset. It focuses on adjusting only properties that differ significantly between browsers, preserving some useful browser defaults.
+
+Q: Should I use these?
+
+A: Normalization with Normalize.css is generally recommended for modern web development. It provides a balance between consistency and preserving useful defaults.  A full reset might be necessary for older browsers or if you need complete control over element styles.
+
+Debugging Javascript
+Q: What are techniques for debugging Javascript code?
+
+A: Several techniques exist, including using browser developer tools (breakpoints, console.log), error messages, debugging libraries, rubber duck debugging, unit testing, and stepping through code line by line.

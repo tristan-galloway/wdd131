@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+:root {
+--primary-color: #52489c;
+--secondary-color: #59c3c3;
+--accent-color: #f45b69;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: Mooli, san-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 228, 228);
+    margin: 0;
+}
+    
+a:link,
+a:visited {
+    color: var(--accent-color);
+}
+
+a {
+    font-size: 1.3em;
+    padding: 0 60px;
+}
+
+button {
+    display: none;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, 
+h2 {
+    font-family: "Mooli";
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 5px 5px 3px rgb(90, 90, 90);
+}
+
+header, 
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    padding-bottom: 15px;
+    vertical-align: middle;
+}
+
+main {
+    margin: auto;
+    justify-self: center;
+    text-align: center;
+    max-width: 1300px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    padding-left: 200px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    button {
+        display: inherit;
+    }
+
+}
