@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #52796F;
+    --secondary-color: #354F52;
+    --accent-color: #4DD7FA;
+    --text-dark: #2F3E46;
+    --text-light: #CAD2C5;
+    --primary-font: monospace;
+    --secondary-font: ;
+    }
+
+header {
+    background-color: var(--secondary-color);
+}
+
+body {
+    color: var(--text-light);
+    background-color: var(--primary-color);
+    margin: 0;
+    font-family: var(--primary-font)
+}
+
+a {
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: var(--text-dark);
+    border-radius: 15px;
+}
+
+a:hover {
+    color: #4DD7FA;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+header,
+main,
+footer {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+footer {
+    background-color: var(--secondary-color);
+}
