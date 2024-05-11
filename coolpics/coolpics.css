@@ -30,7 +30,10 @@ a {
 }
 
 button {
-    display: none;
+    font-size: 1.6em;
+    background: none;
+    border: none;
+    color: var(--text-light);
 }
 
 h1 {
@@ -40,12 +43,6 @@ h1 {
 h1, 
 h2 {
     font-family: "Mooli";
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 img {
@@ -68,6 +65,8 @@ header {
 }
 
 nav {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 15px;
     vertical-align: middle;
 }
@@ -82,13 +81,29 @@ main {
 footer {
     margin-top: 20px;
     padding: 15px;
-    padding-left: 200px;
+    padding-left: 60px;
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 700px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
     button {
-        display: inherit;
+        display: none;
     }
 
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
