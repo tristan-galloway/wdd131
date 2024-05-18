@@ -1,0 +1,23 @@
+Q: How can JavaScript make decisions like using if statements in Python?
+
+A: JavaScript uses similar logic with if statements to control the flow of code based on conditions.  We compared it to your Python experience.
+
+Q: I wrote an if statement with num == 2, but something seems wrong.
+
+A: That's right! In JavaScript, we use the strict comparison operator (===) for equality checks to avoid unexpected behavior.
+
+Q:  Okay, so if (num === 2) checks for a strict equality of 2.  But what if I want to check for something different?
+
+A: Exactly! The if statement condition can be anything that evaluates to true or false.  We can write a condition to make the else block run.
+
+Q:  So if I enter a string or something besides the number 2, the else block would run?
+
+A: Perfect!  Since JavaScript handles different data types, the if statement checks for strict equality to the number 2.
+
+Q: How can we test this with user input?
+
+A: We can use the prompt function to get a number from the user and store it in a variable. The if statement will then check that variable against the condition.
+
+Q:  So the output changes based on what the user enters because it's part of the condition being checked?
+
+A: You got it! The prompt captures user input and the if statement checks if that input is strictly equal to 2.  This determines which message gets printed.
