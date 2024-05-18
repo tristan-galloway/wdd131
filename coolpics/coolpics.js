@@ -27,11 +27,11 @@ function viewHandler(event) {
     // create a variable to hold the element that was clicked on from event.target
     let clickedImage = event.target;
     let source = clickedImage.getAttribute('src');
+    let imageAlt = clickedImage.getAttribute('alt')
 
     // get the src attribute from that element and 'split' it on the "-"
     let imageParts = source.split('-');
     let imageName = imageParts[0];
-    let imageAlt = imageParts[1];
 
     // construct the new image file name by adding "-full.jpeg" to the first part of the array from the previous step
     let fullSource = imageName + '-full.jpeg';
@@ -46,8 +46,11 @@ function viewHandler(event) {
     closeButton.addEventListener('click', closeViewer);
 }
 
-let gallery = document.querySelector(".gallery")
-gallery.addEventListener('click', viewHandler)
+window.onload = function() {
+    let gallery = document.querySelector(".gallery");
+    gallery.addEventListener('click', viewHandler);
+};
+
 
 function closeViewer() {
     let viewerElement = document.querySelector('.viewer');
