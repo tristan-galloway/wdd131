@@ -26,6 +26,17 @@ h1 {
     font-size: 2.2em;
 }
 
+.skiptocontent a {
+    position: absolute;
+    top: -40px;
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.skiptocontent a:focus {
+    top: 0px;
+}
+
 nav {
     border-top: 2px solid #EFC69B;
     border-bottom: 2px solid #EFC69B;
