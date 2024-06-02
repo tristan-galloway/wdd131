@@ -38,8 +38,8 @@ h1 {
 }
 
 nav {
-    border-top: 2px solid #EFC69B;
-    border-bottom: 2px solid #EFC69B;
+    border-top: 2px solid var(--gold-color);
+    border-bottom: 2px solid var(--gold-color);
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -54,10 +54,10 @@ nav {
     font-size: 1.2em;
 }
 
-
 main {
     display: grid;
     grid-template-columns: 25% 50% 25%;
+    max-width: 95%;
 }
 
 a {
@@ -66,19 +66,34 @@ a {
     font-size: 1.1em;
 }
 
-.posts {
-    grid-column: 1/3;
-}
-
 .post {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-column: 2/3;
+    column-gap: 30px;
 }
 
+.posts {
+    grid-column: 1/3;
+    padding-right: 30px;
+}
+
+.info img {
+    display: block;
+    margin: auto;
+}
+
+.details {
+    line-height: 60%;
+    text-align: end;
+    border-right: 2px solid var(--gold-color);
+    margin-top: 25px;
+    padding-right: 20px;
+}
 
 #filters {
     grid-column: 3/4;
-    border: 2px solid #EFC69B;
+    border: 2px solid var(--gold-color);
+    margin-top: 25px;
 
 }
