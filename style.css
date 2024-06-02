@@ -8,15 +8,34 @@
     --secondary-font: ;
     }
 
-header {
-    background-color: var(--secondary-color);
-}
-
 body {
     color: var(--text-light);
     background-color: var(--primary-color);
     margin: 0;
     font-family: var(--primary-font)
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+#profile_image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+}
+
+h1 {
+    padding-left: 120px;
+    /* border-bottom: 2px solid var(--accent-color); */
+}
+
+nav {
+    display: flex;
+    padding-left: 115px;
 }
 
 a {
@@ -31,22 +50,16 @@ a:hover {
     color: #4DD7FA;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-
 header,
 main,
 footer {
     padding: 20px;
 }
 
-nav {
-    display: flex;
-}
-
 footer {
     background-color: var(--secondary-color);
+}
+
+.links {
+    margin: 5px;
 }
