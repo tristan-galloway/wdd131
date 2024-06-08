@@ -6,7 +6,7 @@
     --text-light: #CAD2C5;
     --primary-font: monospace;
     --secondary-font: ;
-    }
+}
 
 body {
     color: var(--text-light);
