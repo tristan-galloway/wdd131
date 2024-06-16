@@ -1,4 +1,4 @@
-import { successTemplate, participantTemplate } from "./Templates";
+import { successTemplate, participantTemplate } from "./Templates.js";
 
 // When the page loads set the current number of participants equal to 1
 let participants = 1;
