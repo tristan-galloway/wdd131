@@ -130,6 +130,7 @@ footer {
 }
 
 .credit {
+    padding: 10px;
     font-size: .7em;
     color: var(--primary-color);
     text-decoration: none;
