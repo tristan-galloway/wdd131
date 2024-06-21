@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+:root {
+    --primary-color: #1B98E0;
+    --secondary-color: #59c3c3;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica,sans-serif;
+    --secondary-font: "Amatic SC";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-dark);
+}
+
+header {
+    margin: 0 20px;
+}
+
+main {
+    margin-top: 0px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+}
+
+h1, h2 {
+    font-family: "Handlee", cursive;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+#branding {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin: 20px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#find-recipe {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#search {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    width: 90%;
+}
+
+#enter {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+#enter img {
+    width: 15px;
+}
+
+#line {
+    margin-top: 80px;
+    height: 1px;
+    background-color: grey;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+}
+
+.recipe-img {
+    width: 100%;
+}
+
+.tags {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    max-width: fit-content;
+    font-weight: bold;
+}
+
+.recipe-description {
+    display: none;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    margin-top: 50px;
+}
+
+.social img {
+    width: 60px;
+}
+
+.credit {
+    font-size: .7em;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    .recipe {
+        flex-direction: row;
+    }
+
+    .recipe-img {
+        width: 350px;
+    }
+    
+    .recipe-details {
+        margin-left: 20px;
+    }
+
+    .recipe-description {
+        display: inherit;
+    }
+
+    footer {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
