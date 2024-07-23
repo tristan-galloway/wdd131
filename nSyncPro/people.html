@@ -9,6 +9,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <script src="main.js" defer></script>
     <title>NSyncPro</title>
 </head>
 <body>
@@ -27,19 +28,7 @@
     <main>
         <div id="people-container">
             <h1>People</h1>
-            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-            <div class="person-card">
-                <img class="profile-img" src="images/profile_picture_placeholder.png" alt="">
-                <h2 class="name">Tristan Galloway</h2>
-                <p class="trained-positions">Pasta, Sheeter, Topper, Manager</p>
-                <p class="phone-number">206-866-4291</p>
-            </div>
-            <div class="person-card">
-                <img class="profile-img" src="images/profile_picture_placeholder.png" alt="">
-                <h2 class="name">Tristan Galloway</h2>
-                <p class="trained-positions">Pasta, Sheeter, Topper, Manager</p>
-                <p class="phone-number">206-866-4291</p>
-            </div>
+            <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
             <div class="person-card">
                 <img class="profile-img" src="images/profile_picture_placeholder.png" alt="">
                 <h2 class="name">Tristan Galloway</h2>

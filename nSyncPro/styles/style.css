@@ -40,6 +40,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--accent2-color);
+}
+
 header {
     height: 60px;
     padding: 10px 0;
