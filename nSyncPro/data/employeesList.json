@@ -1,7 +1,7 @@
 {
 "employees":[
-    {"firstName":"John", "lastName":"Doe", "phoneNum": 1234567890},
-    {"firstName":"Anna", "lastName":"Smith", "phoneNum": 2234567890},
-    {"firstName":"Peter", "lastName":"Jones", "phoneNum": 3234567890}
+    {"firstName":"John", "lastName":"Doe", "position": "Pasta", "phoneNum": 1234567890},
+    {"firstName":"Anna", "lastName":"Smith", "position": "Mixer", "phoneNum": 2234567890},
+    {"firstName":"Peter", "lastName":"Jones", "position": "Topper", "phoneNum": 3234567890}
 ]
 }

@@ -30,19 +30,19 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10%;
-  }
+}
   
-  .viewer button {
+.viewer button {
     position: absolute;
     top: 20px;
     right: 20px; 
-  }
+}
   
-  .viewer img {
+.viewer img {
     display: block;
     max-height: 100%;
     max-width: 100%;
-  }
+}
     
 a:link,
 a:visited {

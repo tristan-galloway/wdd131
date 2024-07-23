@@ -1,6 +1,0 @@
-# Purpose
-
-# Tools
-
-# Resources
-* []()
