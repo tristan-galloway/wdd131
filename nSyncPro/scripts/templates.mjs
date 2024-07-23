@@ -1,7 +1,7 @@
 export function eventCardTemplate(shift) {
     // Create the innerHTML for the event card element
     let eventCardInnerHTML = `
-        <h2 class="position">${shift.position}}</h2>
+        <h2 class="position">${shift.position}</h2>
         <p class="shift-time">${shift.startTime} - ${shift.endTime}</p>
         <p class="date">${shift.date}</p>
         <p class="event-length">${shift.length}</p>`;
@@ -29,7 +29,7 @@ function positions(person) {
     // })
     
     // Add each position with a comma, if it's the last element don't add a comma
-    for (i = 0; i < positions.length; i++) {
+    for (let i = 0; i < positions.length; i++) {
         if (i < positions.length - 1){
             positionsString += `${positions[i]}, `;
         } else {
