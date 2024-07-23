@@ -84,6 +84,11 @@ nav {
     border-radius: 10px;
 }
 
+#upcoming-events-container h1, #people-container h1 {
+    padding-bottom: 10px;
+    border-bottom: 2px var(--secondary-color) solid;
+}
+
 .event-card {
     display: grid;
     grid-template-columns: 1fr 75px;
@@ -133,6 +138,14 @@ nav {
     width: 60px;
     border: 2px var(--primary-color) solid;
     border-radius: 50px;
+}
+
+#myInput {
+    width: 99%;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 0;
+    border: 1px solid var(--secondary-color);
 }
 
 @media screen and (max-width: 800px) {
